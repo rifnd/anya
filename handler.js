@@ -636,9 +636,8 @@ global.dfail = (type, m, conn) => {
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Nando.19*',
     nsfw: 'NSFW tidak aktif'
   }[type]
-  if (msg) return m.reply(msg)
+  if (msg) return conn.sendButton(m.chat, msg.trim(), watermark, null, [[`Menu`, `#menu`]], m)
 }
-
 let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
