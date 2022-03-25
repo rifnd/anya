@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-  conn.sendButtonVid(m.chat, API('amel', '/asupan', {}, 'apikey'), 'Tobat bang', wm, 'Lagi', '#asupan', m)
+  conn.sendButtonVid(m.chat, API('amel', '/asupan', {}, 'apikey'), 'Tobat bang', watermark, 'Lagi', '#asupan', m)
 }
 handler.help = ['asupan']
 handler.tags = ['fun']
