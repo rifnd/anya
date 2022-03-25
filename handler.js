@@ -1,6 +1,7 @@
 let util = require('util')
 let fetch = require('node-fetch')
 let simple = require('./lib/simple')
+const knights = require('knights-canvas')
 const uploadImage = require('./lib/uploadImage')
 let { MessageType } = require('@adiwajshing/baileys')
 
@@ -636,7 +637,7 @@ global.dfail = (type, m, conn) => {
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Nando.19*',
     nsfw: 'NSFW tidak aktif'
   }[type]
-  if (msg) return conn.sendButton(m.chat, msg.trim(), watermark, null, [[`Menu`, `#menu`]], m)
+  if (msg) return conn.sendButton(m.chat, msg, watermark, 'Menu', `#menu`, m)
 }
 let fs = require('fs')
 let chalk = require('chalk')
