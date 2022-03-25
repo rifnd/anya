@@ -1,9 +1,8 @@
 let fs = require('fs')
 
-global.owner = ['6283196968385'] // Letakan nomor kamu disini
+global.owner = ['6281252848955'] // Letakan nomor kamu disini
 
-global.APIs = { // API Prefix
-  // nama: 'https://website'
+global.APIs = {
   amel: 'https://melcanz.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
   neoxr: 'https://api.neoxr.eu.org/',
@@ -16,10 +15,9 @@ global.APIs = { // API Prefix
   vhtear: 'https://api.vhtear.com',
   lolhum: 'https://api.lolhuman.xyz',
   bx: 'https://bx-hunter.herokuapp.com',
+  }
 
-}
-global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
+global.APIKeys = {
   'https://melcanz.com': 'melcantik',
   'https://api.neoxr.eu.org/': 'yntkts',
   'https://api.chipa.xyz': 'APIKEY',
@@ -33,7 +31,6 @@ global.APIKeys = { // APIKey nya disini
   'https://bx-hunter.herokuapp.com': 'FuckBitch',
 }
 
-// Sticker WM
 global.packname = ''
 global.author = 'Moon\n@naando.jpeg\n@alya.xzy'
 
