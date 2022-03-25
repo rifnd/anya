@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
-await conn.sendButton(m.chat,`${pickRandom(global.bacot)}`, wm, 'Bacot', `${usedPrefix + command}`, m)
+await conn.sendButton(m.chat,`${pickRandom(global.bacot)}`, watermark, 'Bacot', `${usedPrefix + command}`, m)
 }
 handler.help = ['bacot']
 handler.tags = ['quotes']
