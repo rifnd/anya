@@ -15,7 +15,7 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
     asDocument: chat.useDocument, mimetype: 'audio/mp4'
   })
 }
-handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url> [server: ${servers.join(', ')}]`)
+handler.help = ['mp3', 'a'].map(v => 'yt' + v + ` <url>`)
 handler.tags = ['downloader']
 handler.command = /^yt(a|mp3)|mp3$/i
 handler.limit = true
