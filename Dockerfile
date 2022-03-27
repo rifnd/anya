@@ -16,4 +16,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "start"]
+CMD ["node .", "--db mongodb+srv://Nando:<password>@cluster0.upxnq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"]
