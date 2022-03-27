@@ -20,7 +20,7 @@ await conn.sendButtonVid(m.chat, link, tt, wm, 'Music', '#ttmusic', m, false, { 
 
 handler.help = ['tiktok2 <url>']
 handler.tags = ['downloader']
-handler.command = /^(tiktok2|tt2)$/i
+handler.command = /^(tiktok2|tiktoknowm2)$/i
 handler.limit = 1
 
 module.exports = handler
