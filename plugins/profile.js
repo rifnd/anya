@@ -35,22 +35,22 @@ let handler = async (m, { conn, usedPrefix }) => {
     let username = conn.getName(who)
     let math = max - xp
     let str = `
-*Profile*
+「 Profile 」
 
-- Nama: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '')})${about != 401 ? '\nInfo: ' + about : ''}
-- Nomor: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
-- Link: https://wa.me/${who.split`@`[0]}
-- XP: ${exp} 
-- Level: ${level}
-- Role: ${role}
-- Limit: ${limit}
-- Daftar: ${registered ? '✅' : '❌'}
-- Premium: ${premium ? `✅\nPremium Expired: ${conn.msToDate(premiumTime - new Date() * 1)}` : '❌'}
-- Banned: ${banned ? '✅' : '❌'}
+• Nama: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '')})${about != 401 ? '\nInfo: ' + about : ''}
+• Nomor: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
+• Link: https://wa.me/${who.split`@`[0]}
+• XP: ${exp} 
+• Level: ${level}
+• Role: ${role}
+• Limit: ${limit}
+• Daftar: ${registered ? '✅' : '❌'}
+• Premium: ${premium ? `✅\nPremium Expired: ${conn.msToDate(premiumTime - new Date() * 1)}` : '❌'}
+• Banned: ${banned ? '✅' : '❌'}
 
 `.trim()
     let mentionedJid = [who]
-    conn.sendButtonLoc(m.chat, pp, str, watermark, 'Menu', '#menu', m, false, { contextInfo: { mentionedJid } })
+    conn.sendButtonImg(m.chat, pp, str, watermark, 'Donasi', '#donasi', m, false, { contextInfo: { mentionedJid } })
   }
 }
 handler.help = ['profile [@62XXXX]']
