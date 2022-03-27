@@ -57,7 +57,7 @@ Demote: ${sDemote}
 ${msToDate(expired - new Date() * 1)}
 `.trim()
         let mentionedJid = groupAdmins.concat([`${m.chat.split`-`[0]}@s.whatsapp.net`])
-        conn.sendButtonLoc(m.key.remoteJid, pp, caption, watermark, 'Menu', '#menu', m, 0, { contextInfo: { mentionedJid } })
+        conn.sendButtonImg(m.key.remoteJid, pp, caption, watermark, 'Menu', '#menu', m, 0, { contextInfo: { mentionedJid } })
     }
 }
 handler.help = ['infogrup']
