@@ -19,7 +19,7 @@ let handler = async (m, { conn, participants, groupMetadata, text }) => {
 
         if (text) return m.reply(msToDate(expired - new Date() * 1))
 
-        let caption = `*Informasi Grup*\n
+        let caption = `「 *Informasi Grup* 」\n
 *ID:* 
 ${groupMetadata.id}
 
@@ -57,7 +57,7 @@ Demote: ${sDemote}
 ${msToDate(expired - new Date() * 1)}
 `.trim()
         let mentionedJid = groupAdmins.concat([`${m.chat.split`-`[0]}@s.whatsapp.net`])
-        conn.sendFile(m.key.remoteJid, pp, 'pp.jpg', caption, m, 0, { contextInfo: { mentionedJid } })
+        conn.sendButtonLoc(m.key.remoteJid, pp, caption, watermark, 'Menu', '#menu', m, 0, { contextInfo: { mentionedJid } })
     }
 }
 handler.help = ['infogrup']
