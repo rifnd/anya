@@ -9,6 +9,8 @@ Contoh: ${usedPrefix}${command} aokashiito
   let res = await igstalk(args[0])
   let json = JSON.parse(JSON.stringify(res))
   let iggs = `
+「 Instagram Profile 」
+
 Username: ${json.username}
 Nickname: ${json.fullName}
 Followers: ${json.followersM}
@@ -16,11 +18,12 @@ Following: ${json.followingM}
 Posting: ${json.postsCountM}
 Link: https://instagram.com/${json.username}
 Bio: ${json.bio}
+
 `.trim()
-  conn.sendFile(m.chat, json.profilePicHD, 'ig.jpg', iggs, m)
+  conn.sendButtonImg(m.chat, json.profilePicHD, iggs, watermark, 'Donasi', '#donasi', m)
 }
 handler.help = ['igstalk <username>']
-handler.tags = ['tools']
+handler.tags = ['internet']
 handler.command = /^(igstalk)$/i
 handler.limit = true
 
