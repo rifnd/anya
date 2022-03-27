@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix }) => {
         banned: false,
         level: 0,
         call: 0,
-        role: 'Hyaktaku V',
+        role: 'Warrior V',
         autolevelup: false,
         pc: 0,
         premium: false,
