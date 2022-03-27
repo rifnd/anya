@@ -15,7 +15,7 @@ let tt = `
 - *By:* ${author.nickname} (${author.username})
 - *Desc:*
 ${description}`
-await conn.sendButtonVid(m.chat, link, tt, wm, 'Music', '#ttmusic', m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
+await conn.sendButtonVid(m.chat, link, tt, watermark, 'Music', '#ttmusic', m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 }
 
 handler.help = ['tiktok2 <url>']
