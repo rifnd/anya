@@ -4,6 +4,7 @@ let handler = async (m) => {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
   if (!mime) throw 'Reply audio dengan caption #judul'
+  m.reply(wait)
   let media = await q.download()
   let url = await uploadFile(media)
   let res = await fetch(global.API('zeks', '/api/searchmusic', { audio: url }, 'apikey'))
