@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 `.trim()
     let mentionedJid = [who]
-    conn.sendButtonLoc(m.chat, pp, str, m, watermark, 'Menu', '#menu', false, { contextInfo: { mentionedJid } })
+    conn.sendButtonLoc(m.chat, pp, str, watermark, 'Menu', '#menu', m, false, { contextInfo: { mentionedJid } })
   }
 }
 handler.help = ['profile [@62XXXX]']
