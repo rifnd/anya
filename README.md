@@ -1,5 +1,5 @@
 <p align="left">
-	<img src="https://telegra.ph/file/9193f9655577d7fada775.jpg" width="35%" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStH_A0WKtnRtD_Bla6B71LjtP-GtYOkacYsg&usqp=CAU"
 </p>
 <h1 align="left">Anya Bot</h1>
 
