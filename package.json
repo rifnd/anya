@@ -1,6 +1,6 @@
 {
-  "name": "Moon",
-  "version": "2.4.0",
+  "name": "AnyaBot",
+  "version": "2.0.0",
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
@@ -17,12 +17,12 @@
   "author": "Nando",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FadliDarmawan/haruno/issues"
+    "url": "https://github.com/Nando35/anya/issues"
   },
-  "homepage": "https://github.com/FadliDarmawan/haruno",
+  "homepage": "https://github.com/Nando35/anya",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
-    "@bochilteam/scraper": "^0.0.7",
+    "@bochilteam/scraper": "^2.0.0",
     "awesome-phonenumber": "^2.54.0",
     "axios": "^0.21.1",
     "brainly-scraper-v2": "^2.0.3",
@@ -64,7 +64,7 @@
     "terminal-image": "^2.0.0",
     "translate-google-api": "^1.0.4",
     "url-regex": "^5.0.0",
-    "wa-sticker-formatter": "^4.0.14",
+    "wa-sticker-formatter": "^3.6.0",
     "xfarr-api": "^1.0.3",
     "xmldom": "^0.6.0",
     "yargs": "^17.0.1",
