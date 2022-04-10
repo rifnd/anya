@@ -18,26 +18,25 @@ global.APIs = {
   }
 
 global.APIKeys = {
-  'https://melcanz.com': 'melcantik',
+  'https://melcanz.com': 'alyawangy',
   'https://api.neoxr.eu.org/': 'yntkts',
-  'https://api.chipa.xyz': 'APIKEY',
+  'https://api.chipa.xyz': 'pais',
   'https://api.xteam.xyz': 'apivproject',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://zekais.com': 'zekais',
   'https://api.zeks.me': 'apivinz',
-  'https://api.lolhuman.xyz': 'piceg',
+  'https://api.lolhuman.xyz': 'yourkey',
   'https://api.vhtear.com': 'sayahafiz',
-  'http://zekais-api.herokuapp.com': 'grqgD6pU',
   'https://bx-hunter.herokuapp.com': 'FuckBitch',
 }
 
 global.packname = ''
-global.author = 'Moon\n@naando.jpeg\n@alya.xzy'
+global.author = '© anya\n@naando.jpeg\n@alya.xzy'
 
-global.wait = '_Proses.. mohon tunggu..._'
-global.eror = '_Maaf, terjadi kesalahan_',
+global.wait = 'Proses.. mohon tunggu...'
+global.eror = 'Maaf, terjadi kesalahan',
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© Moon'
+global.watermark = '© anya'
 global.image = 'https://telegra.ph/file/f9a25488a3d92751505e8.jpg'
 global.thumbfoto = 'https://telegra.ph/file/f9a25488a3d92751505e8.jpg'
 
@@ -63,5 +62,5 @@ tiktokku = 'tiktok.com/nando.xyz'
 tiktokalya = 'Ndak punya'
 cpku = 'https://wa.me/6281252848955'
 cpalya = 'https://wa.me/6285815975368'
-lolkey = 'piceg'
+lolkey = 'yourkey'
 xkey = 'apivproject'
